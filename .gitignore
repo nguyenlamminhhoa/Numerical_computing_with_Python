@@ -1,0 +1,114 @@
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.orig
+*~
+*.code-workspace
+
+# --- Logs & Temp files ---
+*.log
+*.tmp
+*.bak
+*.old
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.env*
+.ipynb_checkpoints/
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.next/
+.nuxt/
+.eslintcache
+.stylelintcache
+
+# --- Java / Kotlin ---
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+target/
+out/
+
+# --- C / C++ / CMake ---
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+*.out
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Cargo.lock 
+
+# --- Go ---
+*.test
+
+# --- .NET ---
+bin/
+obj/
+*.suo
+*.user
+
+# --- Databases ---
+*.sqlite*
+*.db
+*.sql
+
+# --- Archives ---
+*.zip
+*.tar*
+*.rar
+*.7z
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- Frontend ---
+bower_components/
+coverage/
+*.tsbuildinfo
+
+# --- Mobile ---
+.expo/
+android/
+ios/
+xcuserdata/
+DerivedData/
+
+# --- R / MATLAB ---
+.Rhistory
+.RData
+.Rproj.user/
+*.mat
+
+# --- Security ---
+*.pem
+*.key
+*.crt
+*.p12
+*.cer
+*.der
